@@ -1,0 +1,6 @@
+<app-img [changeImg]="product.image"></app-img>
+<h2>Name: {{product.title}}</h2>
+<h3>Price: {{product.price | currency : '$'}}</h3>
+<p appHigthLigth>Descripcion: {{product.description}}</p>
+<h6>Categoria: {{product.category}}</h6>
+<button (click)="agregarCarrito()">Agregar</button>
